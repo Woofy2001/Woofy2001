@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="100%" height="100%">
+  <defs>
+    <linearGradient id="archBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080C14" />
+      <stop offset="100%" stop-color="#0D1424" />
+    </linearGradient>
+
+    <linearGradient id="pillar1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#14B8A6" />
+      <stop offset="100%" stop-color="#0D9488" />
+    </linearGradient>
+
+    <linearGradient id="pillar2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0EA5E9" />
+      <stop offset="100%" stop-color="#38BDF8" />
+    </linearGradient>
+
+    <linearGradient id="pillar3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Card -->
+  <rect width="1200" height="260" rx="14" fill="url(#archBg)" />
+  <rect x="1" y="1" width="1198" height="258" rx="13" fill="none" stroke="#1E293B" stroke-width="1.5" />
+
+  <!-- Header Strip -->
+  <text x="36" y="38" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, monospace" font-size="11.5" font-weight="700" fill="#14B8A6" letter-spacing="1.5">
+    01 // CORE ENGINEERING ARCHITECTURE &amp; EXECUTION DOMAINS
+  </text>
+  <text x="1164" y="38" text-anchor="end" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#64748B">
+    SYSTEMS TOPOLOGY v2026.10
+  </text>
+  <line x1="36" y1="52" x2="1164" y2="52" stroke="#1E293B" stroke-width="1" />
+
+  <!-- PILLAR 1: AGENTIC AI & VERIFICATION -->
+  <g transform="translate(36, 70)">
+    <rect x="0" y="0" width="356" height="164" rx="10" fill="#0F172A" stroke="#1E293B" stroke-width="1.25" />
+    <rect x="0" y="0" width="356" height="3" rx="1.5" fill="url(#pillar1)" />
+
+    <rect x="18" y="18" width="32" height="22" rx="4" fill="#14B8A6" fill-opacity="0.15" stroke="#14B8A6" stroke-width="0.8" />
+    <text x="34" y="33" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#2DD4BF">A1</text>
+    <text x="60" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="15.5" font-weight="700" fill="#F8FAFC">
+      Agentic AI &amp; LLM Verification
+    </text>
+
+    <text x="18" y="62" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="12.5" fill="#94A3B8">
+      Multi-agent orchestration, execution-grounded test
+    </text>
+    <text x="18" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="12.5" fill="#94A3B8">
+      repair, and empirical confidence calibration.
+    </text>
+
+    <line x1="18" y1="98" x2="338" y2="98" stroke="#1E293B" stroke-width="1" />
+
+    <text x="18" y="118" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600" fill="#2DD4BF">
+      ▸ LangGraph • Claude Sonnet 5.5 • Pydantic v2
+    </text>
+    <text x="18" y="140" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600" fill="#94A3B8">
+      ▸ Playwright ARIA • ECE / Brier / AUROC Metrics
+    </text>
+  </g>
+
+  <!-- Connector Arrow 1 -> 2 -->
+  <g transform="translate(396, 146)" stroke="#334155" stroke-width="1.5" fill="none">
+    <line x1="0" y1="6" x2="22" y2="6" stroke-dasharray="3,3" />
+    <circle cx="11" cy="6" r="3" fill="#14B8A6" stroke="none" />
+  </g>
+
+  <!-- PILLAR 2: FULL-STACK PRODUCT & SAAS -->
+  <g transform="translate(422, 70)">
+    <rect x="0" y="0" width="356" height="164" rx="10" fill="#0F172A" stroke="#1E293B" stroke-width="1.25" />
+    <rect x="0" y="0" width="356" height="3" rx="1.5" fill="url(#pillar2)" />
+
+    <rect x="18" y="18" width="32" height="22" rx="4" fill="#0EA5E9" fill-opacity="0.15" stroke="#0EA5E9" stroke-width="0.8" />
+    <text x="34" y="33" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#38BDF8">A2</text>
+    <text x="60" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="15.5" font-weight="700" fill="#F8FAFC">
+      Full-Stack SaaS &amp; Mobile Systems
+    </text>
+
+    <text x="18" y="62" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="12.5" fill="#94A3B8">
+      Multi-tenant cloud platforms, offline-first POS
+    </text>
+    <text x="18" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="12.5" fill="#94A3B8">
+      engines, and AI-powered cross-platform mobile apps.
+    </text>
+
+    <line x1="18" y1="98" x2="338" y2="98" stroke="#1E293B" stroke-width="1" />
+
+    <text x="18" y="118" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600" fill="#38BDF8">
+      ▸ Next.js • TypeScript • React • Tailwind CSS
+    </text>
+    <text x="18" y="140" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600" fill="#94A3B8">
+      ▸ FastAPI • Node.js / Express • Flutter • MongoDB
+    </text>
+  </g>
+
+  <!-- Connector Arrow 2 -> 3 -->
+  <g transform="translate(782, 146)" stroke="#334155" stroke-width="1.5" fill="none">
+    <line x1="0" y1="6" x2="22" y2="6" stroke-dasharray="3,3" />
+    <circle cx="11" cy="6" r="3" fill="#0EA5E9" stroke="none" />
+  </g>
+
+  <!-- PILLAR 3: APPSEC, AUDITING & CRYPTOGRAPHY -->
+  <g transform="translate(808, 70)">
+    <rect x="0" y="0" width="356" height="164" rx="10" fill="#0F172A" stroke="#1E293B" stroke-width="1.25" />
+    <rect x="0" y="0" width="356" height="3" rx="1.5" fill="url(#pillar3)" />
+
+    <rect x="18" y="18" width="32" height="22" rx="4" fill="#F59E0B" fill-opacity="0.15" stroke="#F59E0B" stroke-width="0.8" />
+    <text x="34" y="33" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#FBBF24">A3</text>
+    <text x="60" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="15.5" font-weight="700" fill="#F8FAFC">
+      AppSec, Auditing &amp; Resilience
+    </text>
+
+    <text x="18" y="62" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="12.5" fill="#94A3B8">
+      Enterprise web security audits, cryptographic file
+    </text>
+    <text x="18" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="12.5" fill="#94A3B8">
+      protection, and role-based access hardening.
+    </text>
+
+    <line x1="18" y1="98" x2="338" y2="98" stroke="#1E293B" stroke-width="1" />
+
+    <text x="18" y="118" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600" fill="#FBBF24">
+      ▸ OWASP / Black-Box Audits • JWT / RBAC Auth
+    </text>
+    <text x="18" y="140" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600" fill="#94A3B8">
+      ▸ AES-256 (Fernet) • System Watchdogs • Docker
+    </text>
+  </g>
+</svg>
